@@ -21,13 +21,13 @@ body {
 /* give width and height  */
 .whole-part {
   height: 600px;
-  width: 300px;
+  width: 350px;
 }
 
 .card {
   /* Dont ever give the card a height */
   /* width must be the same as the whole-part */
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,7 +38,7 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  object-fit: cover;
+ 
   
 }
 .card-body {
@@ -46,6 +46,7 @@ body {
   height: 80%;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  padding-top: 10px;
 }
 
 .card-title {
@@ -60,7 +61,6 @@ body {
   text-align: center;
   padding: 1.9rem;
   padding-top: 0;
-
   font-weight: 500;
   color: hsl(224, 23%, 55%);
   line-height: 1.5;
@@ -94,9 +94,6 @@ body {
 }
 .lowest-part {
   text-align: center;
-}
-.lower-link:hover {
-  color: ;
 }
 
 .btn {
